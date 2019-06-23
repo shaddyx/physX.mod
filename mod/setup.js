@@ -2,7 +2,7 @@ module.exports = function setup() {
     if ($.status === "testing"){
         return;
     }
-    sys.spawn("dna/TestEntity", {
+    sys.spawn("TestEntity", {
         x: 10,
         y: 10
     })

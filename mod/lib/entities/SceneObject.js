@@ -1,6 +1,5 @@
 class SceneObject{
     constructor(){
-        super();
         this.needToInit = true;
         this.x = 0;
         this.y = 0;

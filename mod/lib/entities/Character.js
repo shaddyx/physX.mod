@@ -1,4 +1,4 @@
-// @depends(lib/entities/SceneObject)
+// @depends(lib/entities/PhysicalObject)
 class Character extends lib.entities.PhysicalObject{
     constructor(){
         super();
